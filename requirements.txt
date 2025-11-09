@@ -1,4 +1,20 @@
+# Core dependencies
 python-dotenv==1.0.1
 tomli==2.0.1
 requests==2.32.3
 pydantic==2.9.2
+
+# Trading and data APIs
+alpaca-trade-api==3.2.0
+yfinance==0.2.50
+
+# Data handling
+pandas==2.2.3
+numpy==1.26.4
+
+# OpenAI and AI models
+openai==1.52.1
+tiktoken==0.7.0
+
+# Logging and utilities
+tenacity==8.4.1
