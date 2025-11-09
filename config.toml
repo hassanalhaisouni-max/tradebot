@@ -1,0 +1,19 @@
+[general]
+base_currency = "USD"
+account_cash = 30000
+
+[signals]
+model = "gpt-4o-mini"
+temperature = 0.3
+
+
+
+[risk]
+max_daily_loss_pct = 2.0
+max_position_pct = 10.0
+default_sl_pct = 1.0
+default_tp_pct = 2.0
+
+[broker]
+name = "paper"  # options: "paper", "alpaca", "ibkr", "custom"
+dry_run = true
